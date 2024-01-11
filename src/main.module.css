@@ -1,0 +1,20 @@
+.container{
+    /* with flex display justify content bring text in center horizontly and with align-items brings text in center vertically */
+    display: flex;
+    justify-content: space-evenly;   
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: 8px solid rgb(5, 6, 7);
+    width: 400px;
+    padding: 15px;
+    background-image: radial-gradient( circle 311px at 8.6% 27.9%,  rgba(62,147,252,0.57) 12.9%, rgba(239,183,192,0.44) 91.2% );
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
